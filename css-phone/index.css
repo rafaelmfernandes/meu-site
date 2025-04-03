@@ -1,0 +1,27 @@
+@charset "UTF 8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+header {
+    padding: 10px;
+    background-color: aquamarine;
+    width: 100vw;
+}
+
+header > h1 {
+    padding: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: 1px solid #111;
+    background-color: aqua;
+}
+header > nav {
+    padding: 10px;
+
+}
