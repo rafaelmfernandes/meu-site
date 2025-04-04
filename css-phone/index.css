@@ -115,6 +115,7 @@ main > menu > a > h2 {
 }
 
 
+
 #container > .topo-container > .ft-user-name {
     width: 85%;
     margin-left: 0px;
@@ -151,6 +152,7 @@ main > menu > a > h2 {
     margin-right: 0px;
     object-fit: contain;
 }
+
 
 
 #container > .foto-video-infor {
@@ -193,4 +195,28 @@ main > menu > a > h2 {
     width: 93vw;
     margin-top: 7px;
     margin-bottom: 15px;
+}
+
+
+#container > .valor {
+    width: 100vw;
+    padding: 10px 15px;
+    background-color: #f2f2f2;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#container > .valor > h1 {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin-left: 0px;
+}
+#container > .valor > p {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-right: 0px;
 }
