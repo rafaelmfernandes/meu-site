@@ -131,7 +131,7 @@ main > section > .corpo-convite {
 }
 main > section .corpo-convite > div {
     margin: 10px 0px 5px;
-    font-size: 15px;
+    font-size: 16px;
 
     display: flex;
     flex-flow: row wrap;
@@ -145,6 +145,17 @@ main > section .corpo-convite > div > img {
     object-fit: contain;
     margin: 0px;
     margin-right: 15px;
+}
+
+main > section > .corpo-convite > .local {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+main > section > .corpo-convite > .local > address > h3 {
+    display: 14px;
+    font-style: normal;
 }
 
 /* -------- BOTOES DO CONVITE ------- */
