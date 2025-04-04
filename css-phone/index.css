@@ -54,7 +54,7 @@ main > menu {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    width: 90vw;
+    width: 93vw;
 
 }
 main > menu > a {
