@@ -51,4 +51,64 @@ header > nav > a > h2 {
     font-weight: normal;
 }
 
+
 /* ---------- CORPO DO SITE --------------*/
+
+main {
+    width: 100vw;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin-top: 65px;
+
+
+}
+main > .linha {
+    padding: 2.5px;
+    background-color: aquamarine;
+
+    width: 93vw;
+    border-radius: 20px;
+}
+main > h1 {
+    font-size: 15px;
+    font-weight: bold;
+
+    width: 93vw;
+    margin: 10px auto;
+}
+main > p {
+    font-size: 15px;
+
+    width: 93vw;
+    margin: 5px auto;
+    word-break: break-all;
+
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 25px;
+}
+
+
+main > section {
+    padding: 10px 0px;
+
+    background: lightcyan;
+    width: 93vw;
+    margin-top: 10px;
+}
+main > section > form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+main > section > form > article {
+    padding: 10px;
+
+    width: 100%;
+    margin: 5px auto;
+    background-color: lightcoral;
+}
