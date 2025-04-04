@@ -128,13 +128,14 @@ main > .precos > h2 {
 main > .precos > article {
     width: 100%;
 
-    padding: 10px 0px;
-    margin-top: 5px;
+    padding: 5px 0px;
 
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+
+    font-size: 15px;
 
 }
 
