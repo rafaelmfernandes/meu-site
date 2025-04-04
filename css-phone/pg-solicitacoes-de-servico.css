@@ -153,9 +153,12 @@ main > section > .corpo-convite > .local {
     justify-content: flex-start;
     align-items: flex-start;
 }
+main > section > .corpo-convite > .local > address {
+    font-size: 14px;
+}
 main > section > .corpo-convite > .local > address > h3 {
-    display: 14px;
-    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 /* -------- BOTOES DO CONVITE ------- */
