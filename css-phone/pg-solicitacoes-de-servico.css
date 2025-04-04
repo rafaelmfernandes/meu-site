@@ -1,0 +1,154 @@
+@charset   "UTF-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------------- TOPO 1 -------------- */
+header {
+    width: 100vw;
+    
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    border-bottom: 0.5px solid #e1e1e1;
+    background-color: #fff;
+    z-index: 2;
+}
+header > nav {
+    width: 93vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+header > nav > a {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header > nav > a > img {
+
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+header > nav > h1 {
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* -------------- CORPO DO SITE -------------- */
+
+main {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 60px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main > section {
+    width: 93vw;
+    height: 400px;
+    background-color: #f2f2f2;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+
+    padding: 10px;
+}
+
+
+/* -------- TOPO CONVITE ------- */
+main > section > .topo-convite {
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+main > section > .topo-convite > div {
+    margin: 0px;
+}
+
+main > section > .topo-convite > .ft-user-name {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+main > section > .topo-convite > .ft-user-name > img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+main > section > .topo-convite > .ft-user-name > h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin-left: 10px;
+}
+
+main > section > .topo-convite > .data-hora {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: end;
+}
+main > section > .topo-convite > .data-hora > h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin: 0px;
+}
+
+/* -------- CORPO CONVITE ------- */
+main > section > .corpo-convite {
+    width: 100%;
+    margin-top: 10px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+main > section .corpo-convite > div {
+    margin: 10px 0px 5px;
+    font-size: 15px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+main > section .corpo-convite > div > img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin: 0px;
+    margin-right: 15px;
+}
+
+
+main > section > .bt-convite {
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}

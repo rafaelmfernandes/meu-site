@@ -20,7 +20,7 @@ header {
     top: 0px;
     border-bottom: 0.5px solid #e1e1e1;
     background-color: #fff;
-    z-index: 1;
+    z-index: 2;
     
 }
 
@@ -29,7 +29,7 @@ header > h1 {
     margin-left: 5px;
     padding: 10px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
 }
 header > nav {
     flex: 0 0 120px;
