@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------ TOPO ------------ */
+header {
+    width: 100vw;
+    height: 50px;
+    border-bottom: 1px solid #e1e1e1;
+
+    position: fixed;
+    top: 0px;
+    z-index: 2px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    
+}
+
+header > menu {
+    width: 93vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto;
+}
+header > menu > img {
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+header > menu > a {
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* ------------ CORPO DO SITE ------------ */
+
+main {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+main > section {}
