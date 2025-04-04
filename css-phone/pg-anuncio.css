@@ -94,7 +94,7 @@ main > .descricao {
     padding: 10px 0px;
 }
 main > .descricao > p {
-    font-size: 14px;
+    font-size: 15px;
     word-break: break-all;
 }
 main > .descricao > p > a {
