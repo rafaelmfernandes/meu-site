@@ -212,6 +212,7 @@ main > .bt-contratar {
     align-items: center;
 
     border-top: 1px solid #e1e1e1;
+    background: #fff;
 
 }
 main > .bt-contratar > button {
@@ -224,11 +225,13 @@ main > .bt-contratar > button {
     border: 1px solid #c1c1c1;
     border-radius: 5px;
     margin: 0 auto;
+    background: #406DF8;
 }
 main > .bt-contratar > button > a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 15px;
+
 }
 
 
