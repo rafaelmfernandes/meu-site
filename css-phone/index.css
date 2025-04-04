@@ -98,12 +98,11 @@ main > menu > a > h2 {
 
 #container {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
     align-items: center;
 
     width: 100vw;
-    height: 350px;
     margin-top: 25px;
 }
 #container > .topo-container {
@@ -153,7 +152,45 @@ main > menu > a > h2 {
     object-fit: contain;
 }
 
+
 #container > .foto-video-infor {
-    padding: 10px;
-    background-color: lightcoral;
+    width: 100vw;
+    height: 400px;
+    margin-top: 10px;
+
+    position: relative;
+}
+#container > .foto-video-infor > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#container > .foto-video-infor > article {
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    background: linear-gradient(transparent, rgb(0, 0, 0));
+
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+#container > .foto-video-infor > article > h1 {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    width: 93vw;
+}
+#container > .foto-video-infor > article > p {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    width: 93vw;
+    margin-top: 7px;
+    margin-bottom: 15px;
 }
