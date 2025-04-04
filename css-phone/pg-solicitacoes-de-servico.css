@@ -54,9 +54,10 @@ main {
     margin-top: 60px;
 
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 /* -------- TOPO CONVITE ------- */
@@ -70,6 +71,7 @@ main > section {
 
     padding: 15px;
     border-radius: 5px;
+    margin-bottom: 15px ;
 }
 main > section > .topo-convite {
     width: 100%;
