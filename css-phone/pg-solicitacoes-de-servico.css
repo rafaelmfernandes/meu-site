@@ -59,9 +59,9 @@ main {
     align-items: center;
 }
 
+/* -------- TOPO CONVITE ------- */
 main > section {
     width: 93vw;
-    height: 400px;
     background-color: #f2f2f2;
 
     display: flex;
@@ -70,9 +70,6 @@ main > section {
 
     padding: 10px;
 }
-
-
-/* -------- TOPO CONVITE ------- */
 main > section > .topo-convite {
     width: 100%;
     padding-bottom: 15px;
@@ -127,6 +124,9 @@ main > section > .corpo-convite {
     flex-flow: column wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 20px;
 }
 main > section .corpo-convite > div {
     margin: 10px 0px 5px;
@@ -146,9 +146,22 @@ main > section .corpo-convite > div > img {
     margin-right: 15px;
 }
 
-
+/* -------- BOTOES DO CONVITE ------- */
 main > section > .bt-convite {
     width: 100%;
-    background-color: black;
-    padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 10px;
+}
+
+main > section > .bt-convite > button {
+    width: 48%;
+    margin: 0px;
+    padding: 10px 0px;
+    border: none;
+    background: none;
 }
