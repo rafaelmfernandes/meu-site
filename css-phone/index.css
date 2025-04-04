@@ -17,7 +17,8 @@ header {
     height: 50px;
     position: fixed;
     top: 0px;
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 0.5px solid #e1e1e1;
+    background-color: #fff;
     
 }
 
@@ -49,6 +50,8 @@ main {
     width: 100vw;
     margin-top: 60px;
 }
+
+/* ----------MENU (CANTORES E MUSICOS) -------------- */
 main > menu {
     display: flex;
     flex-flow: row wrap;
@@ -58,7 +61,7 @@ main > menu {
 
 }
 main > menu > a {
-    padding: 7px 0px;
+    padding: 9px 0px;
 
     display: flex;
     flex-flow: row wrap;
@@ -89,4 +92,68 @@ main > menu > a > h2 {
     font-weight: 500;
     color: black;
     margin-left: 10px;
+}
+
+/* -------------- CONTEUDO -------------- */
+
+#container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+    height: 350px;
+    margin-top: 25px;
+}
+#container > .topo-container {
+    width: 93vw;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#container > .topo-container > .ft-user-name {
+    width: 85%;
+    margin-left: 0px;
+
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+#container > .topo-container > .ft-user-name > img {
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#container > .topo-container > .ft-user-name > h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin-left: 10px
+}
+
+#container > .topo-container > .icon-mais {
+    width: 14%;
+    margin-right: 0px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+#container > .topo-container > .icon-mais img {
+    height: 21px;
+    margin-right: 0px;
+    object-fit: contain;
+}
+
+#container > .foto-video-infor {
+    padding: 10px;
+    background-color: lightcoral;
 }
