@@ -12,6 +12,7 @@ header {
     width: 100vw;
     height: 50px;
     border-bottom: 1px solid #e1e1e1;
+    background: #fff;
 
     position: fixed;
     top: 0px;
