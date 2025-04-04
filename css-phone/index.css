@@ -8,6 +8,7 @@
 
 body { font-family: Arial, Helvetica, sans-serif; }
 
+/* -------------- TOPO 1 -------------- */
 header {
     width: 100vw;
     display: flex;
@@ -45,11 +46,47 @@ header > nav > a > img {
     height: 21px;
 }
 
+/* -------------- MENU PRINCIPAL -------------- */
+
+#menu-principal {
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
+    border-top: 0.5px solid #e1e1e1;
+    background-color: #fff;
+    z-index: 2;
+}
+#menu-principal > nav {
+    width: 93vw;
+    height: 90%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#menu-principal > nav > a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+
+    display: flex;
+    flex-flow: column wrap;
+
+}
+#menu-principal > nav > a > img {
+    width: 21px;
+    height: 21px;
+}
+
 /* -------------- CORPO DO SITE -------------- */
 main {
 
     width: 100vw;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 /* ----------MENU (CANTORES E MUSICOS) -------------- */
