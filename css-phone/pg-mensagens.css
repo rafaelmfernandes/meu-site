@@ -1,0 +1,99 @@
+@charset "UTF 8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: "Arial, Helvetica, sans-serif";
+    --corFont: black;
+    --corFundoBotao: #406DF8;
+}
+
+header {
+    width: 100vw;
+    height: 50px;
+
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+
+    background: white;
+    border-bottom: 1px solid #e1e1e1;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header > nav {
+    width: 93vw;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header > nav > a > img {
+    width: 21px;
+    height: 21px;
+    object-fit: contain;
+}
+header > nav > a {
+    margin-left: 0px;
+}
+header > nav > .bt-chat {
+    width: 21px;
+    height: 21px;
+    object-fit: contain;
+    margin-right: 0px;
+}
+
+
+/*-------- CORPO ----------*/
+main {
+    width: 100vw;
+    margin-top: 60px;
+}
+main > #container-msg {
+    width: 100vw;
+
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+main > #container-msg > input {
+    width: 90vw;
+    padding: 10px;
+    background: #f2f2f2;
+    margin: 10px auto;
+
+    border: none;
+    border-radius: 5px;
+
+}
+main > #container-msg > article {
+    width: 100vw;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+main > #container-msg > article > img {
+    margin: 0px;
+
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+
+    border-radius: 40px;
+}
