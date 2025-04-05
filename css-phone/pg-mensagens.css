@@ -57,7 +57,7 @@ header > nav > .bt-chat {
 /*-------- CORPO ----------*/
 main {
     width: 100vw;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 main > #container-msg {
     width: 100vw;
@@ -76,6 +76,7 @@ main > #container-msg > input {
     border-radius: 5px;
 
 }
+
 main > #container-msg > article {
     width: 100vw;
     padding: 10px;
@@ -86,7 +87,6 @@ main > #container-msg > article {
     align-items: center;
 
     border-top: 1px solid #e1e1e1;
-    border-bottom: 1px solid #e1e1e1;
 }
 main > #container-msg > article > img {
     margin: 0px;
@@ -96,4 +96,33 @@ main > #container-msg > article > img {
     object-fit: contain;
 
     border-radius: 40px;
+}
+
+main > #container-msg > article > aside {
+    margin: 0px;
+    margin-left: 10px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+main > #container-msg > article > aside > h3 {
+    font-size: 15px;
+    margin: 0px;
+
+}
+main > #container-msg > article > aside > p {
+    font-size: 15px;
+    margin: 0px;
+}
+
+main > #container-msg > article > abbr {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    font-size: 13px;
+    margin-right: 0px;
 }
