@@ -108,7 +108,7 @@ main > section > form {
 }
 main > section > form > article {
     width: 100%;
-    margin: 5px auto;
+    margin: 10px auto;
 
     display: flex;
     flex-flow: row nowrap;
