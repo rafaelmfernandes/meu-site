@@ -65,7 +65,7 @@ header > nav > .box1 > h3 {
 }
 header > nav > .box1 > h2 {
     font-size: 15px;
-    
+
 }
 
 
@@ -80,6 +80,7 @@ main > #container-msg {
     display: flex;
     flex-flow: column nowrap;
     
+    
 }
 main > #container-msg > input {
     width: 90vw;
@@ -91,10 +92,15 @@ main > #container-msg > input {
     border-radius: 5px;
 
 }
+main > #container-msg > a {
+    text-decoration: none;
+    color: black;
+}
 
-main > #container-msg > article {
+main > #container-msg > a > article {
     width: 100vw;
     padding: 10px;
+    height: 70px;
 
     display: flex;
     flex-flow: row nowrap;
@@ -103,7 +109,7 @@ main > #container-msg > article {
 
     border-top: 1px solid #e1e1e1;
 }
-main > #container-msg > article > img {
+main > #container-msg > a > article > img {
     margin: 0px;
 
     width: 45px;
@@ -113,7 +119,7 @@ main > #container-msg > article > img {
     border-radius: 60px;
 }
 
-main > #container-msg > article > aside {
+main > #container-msg > a > article > aside {
     margin: 0px;
     margin-left: 10px;
 
@@ -122,17 +128,17 @@ main > #container-msg > article > aside {
     justify-content: flex-start;
     align-items: flex-start;
 }
-main > #container-msg > article > aside > h3 {
+main > #container-msg > a > article > aside > h3 {
     font-size: 15px;
     margin: 0px;
 
 }
-main > #container-msg > article > aside > p {
+main > #container-msg > a > article > aside > p {
     font-size: 14px;
     margin: 0px;
 }
 
-main > #container-msg > article > abbr {
+main > #container-msg > a > article > abbr {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -140,4 +146,8 @@ main > #container-msg > article > abbr {
 
     font-size: 13px;
     margin-right: 0px;
+}
+main > #container-msg > a > article > abbr > h3 {
+    font-size: 13px;
+    font-weight: normal;
 }
