@@ -58,6 +58,7 @@ header > nav > a > h2 {
 main {
     margin-top: 70px;
     width: 100vw;
+    position: relative;
 }
 
 main > #img-resumo {
@@ -90,5 +91,23 @@ main > #img-resumo > article {
 
 main > #img-resumo > article > h2 {
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+main > #img-resumo > article > p {
+    font-size: 14px;
+}
+
+main > #infor-resumo {
+    padding: 10px;
+    background-color: #406DF8;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    width: 80vw;
+    margin: 0 auto;
+
+    border-radius: 5px;
 }
