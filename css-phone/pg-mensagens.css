@@ -7,10 +7,11 @@
 }
 
 :root {
-    --font: "Arial, Helvetica, sans-serif";
+    --font: Arial, Helvetica, sans-serif;
     --corFont: black;
     --corFundoBotao: #406DF8;
 }
+body {font-family: var(--font);}
 
 header {
     width: 100vw;
@@ -91,11 +92,11 @@ main > #container-msg > article {
 main > #container-msg > article > img {
     margin: 0px;
 
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
 
-    border-radius: 40px;
+    border-radius: 60px;
 }
 
 main > #container-msg > article > aside {
@@ -113,7 +114,7 @@ main > #container-msg > article > aside > h3 {
 
 }
 main > #container-msg > article > aside > p {
-    font-size: 15px;
+    font-size: 14px;
     margin: 0px;
 }
 
