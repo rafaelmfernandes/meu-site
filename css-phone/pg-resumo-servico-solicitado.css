@@ -111,3 +111,10 @@ main > #infor-resumo {
 
     border-radius: 5px;
 }
+main > #infor-resumo > aside {
+    width: 100%;
+    padding: 10px;
+
+    background-color: bisque;
+    margin: 5px auto;
+}
