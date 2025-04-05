@@ -53,6 +53,20 @@ header > nav > .bt-chat {
     object-fit: contain;
     margin-right: 0px;
 }
+header > nav > .box1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+header > nav > .box1 > h3 {
+    font-size: 13px;
+    color: 777;
+}
+header > nav > .box1 > h2 {
+    font-size: 15px;
+    
+}
 
 
 /*-------- CORPO ----------*/
