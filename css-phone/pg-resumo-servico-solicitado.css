@@ -9,7 +9,7 @@
     --icolor-botao: #406DF8;
 }
 
-body { font-family: Arial, Helvetica, sans-serif;}
+body { font-family: Arial, Helvetica, sans-serif; background: #f2f2f2;}
 
 
 /* ---------- TOPO --------------*/
@@ -27,6 +27,8 @@ header {
 
     border-bottom: 1px solid #e1e1e1;
     background: #fff;
+
+    z-index: 2;
 }
 header > nav {
     width: 93vw;
@@ -56,9 +58,12 @@ header > nav > a > h2 {
 
 
 main {
-    margin-top: 70px;
+    margin-top: 60px;
     width: 100vw;
+    height: 100vh;
     position: relative;
+
+    margin-bottom: 50px;
 }
 
 main > #img-resumo {
@@ -97,9 +102,9 @@ main > #img-resumo > article > p {
     font-size: 14px;
 }
 
+
 main > #infor-resumo {
     padding: 10px;
-    background-color: #406DF8;
 
     display: flex;
     flex-flow: column nowrap;
@@ -107,14 +112,97 @@ main > #infor-resumo {
     align-items: flex-start;
 
     width: 80vw;
-    margin: 0 auto;
+    margin-top: -50px;
 
     border-radius: 5px;
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #fff;
+
 }
+main > #infor-resumo > h1 {
+    font-size: 15px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e1e1e1;
+    width: 100%;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
 main > #infor-resumo > aside {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
 
-    background-color: bisque;
-    margin: 5px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    margin-top: 2px;
+}
+main > #infor-resumo > aside > h3 {
+    font-size: 15px;
+    margin: 0px;
+    margin-right: 7px;
+
+}
+main > #infor-resumo > aside > address {
+    margin: 0px;
+}
+main > #infor-resumo > aside > img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 25px;
+
+    margin: 0px;
+}
+main > #infor-resumo > .anunciante {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    background: #f2f2f2;
+
+}
+main > #infor-resumo > .anunciante > .t-anun {
+    margin-right: 0px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+
+#bt-confirmar {
+    padding: 15px;
+
+    width: 100vw;
+    height: 60px;
+
+    background: #fff;
+    border-top: 1px solid #e1e1e1;
+
+    position: fixed;
+    bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bt-confirmar > a {
+    text-decoration: none;
+    color: white;
+    width: 93vw;
+    padding: 15px;
+    text-align: center;
+
+    background: rgb(90, 187, 11);
+    border: none;
+    border-radius: 5px;
 }
