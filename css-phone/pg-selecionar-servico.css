@@ -72,13 +72,15 @@ main > .linha {
 
     width: 93vw;
     border-radius: 20px;
+
+    margin-bottom: 10px;
 }
 main > h1 {
     font-size: 15px;
     font-weight: bold;
 
     width: 93vw;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 main > p {
     font-size: 15px;
@@ -127,7 +129,7 @@ main > section > form > article > abbr {
 }
 
 
-main > section > form > a {
+main > section > form > .bt-avancar {
     text-decoration: none;
 
     width: 100vw;
@@ -145,7 +147,7 @@ main > section > form > a {
 
     border-top: 1px solid #e1e1e1;
 }
-main > section > form > a > input {
+main > section > form > .bt-avancar > input {
     font-size: 15px;
     width: 93vw;
     padding: 15px;
