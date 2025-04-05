@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --icolor-botao: #406DF8;
+}
 
 body { font-family: Arial, Helvetica, sans-serif;}
 
@@ -53,3 +56,75 @@ header > nav > a > h2 {
 
 
 /* ---------- CORPO --------------*/
+
+main {
+    width: 100vw;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 60px;
+
+}
+
+/* --- FURMALRIO ---*/
+main > form {
+    width: 93vw;
+    margin: 10px auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+main > form > h1 { 
+    width: 93vw;
+    font-size: 15px;
+    margin: 10px auto;
+}
+main > form > p {
+    width: 93vw;
+    word-break: break-all;
+    margin: 10px auto;
+}
+main > form > input {
+    padding: 10px;
+    width: 93vw;
+
+    border: 1px solid #e1e1e1;
+    background: #f2f2f2;
+
+    margin: 10px auto;
+    font-size: 15px;
+}
+form > section {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
+    width: 100vw;
+    padding: 10px;
+
+    background: #fff;
+    border-top: 1px solid #e1e1e1;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+form > section > input {
+    width: 93vw;
+
+    padding: 15px;
+    background: var(--icolor-botao);
+    color: white;
+
+    font-size: 15px;
+    border: none;
+
+    border-radius: 5px;
+}

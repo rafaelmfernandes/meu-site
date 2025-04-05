@@ -11,17 +11,31 @@
     <header>
         <nav>
             <a href="pg-selecionar-servico.html"><img src="icones/icone-voltar.png"></a>
-            <a href="#"><h2>Data e Hora</h2></a>
+            <a href="#"><h2>Data/Local</h2></a>
             <a href="#">avançar</a>
         </nav>
     </header>
 
     <main>
+        <form action="pg-forma-de-pagamento.html" method="post" id="form-data-hora">
 
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+            <h1>Qual a data e local do evento?</h1>
+
+            <p>Informe corretamente o endreço do seu evento, ele será importante para que nosso usuario parceiro chegue ate o local</p>
+
+            
+            <input type="text" name="NomeLocal" id="inome-do-local" placeholder="Nome do local">
+            
+            <input type="text" name="CEP" id="iCep" placeholder="CEP">
+
+            <input type="date" name="Data" id="idata">
+
+            <input type="time" id="iHora" placeholder="">
+
+            <section><input type="submit" name="Avancar" id="Iavancar" value="Avançar"></section>
+            
+
+        </form>
 
     </main>
 </body>
