@@ -16,7 +16,20 @@
     </header>
 
     <main>
-        FAZER DEPOIS
+        
+        <div id="res">
+            resultado
+        </div>
+
+        <script>
+            function enviar(){
+                var local = document.getElementById('ilocal')
+                var res = document.getElementById('res')
+
+                var nova = String(local.value)
+                res.innerHTML =`nome do local: ${nova}`;
+            }
+        </script>
     </main>
 </body>
 </html>
