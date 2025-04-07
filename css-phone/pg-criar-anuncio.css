@@ -1,0 +1,140 @@
+@charset "UTF 8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --icolor-botao: #406DF8;
+}
+
+body { font-family: Arial, Helvetica, sans-serif;}
+
+
+/* ---------- TOPO --------------*/
+header {
+    width: 100vw;
+    height: 60px;
+
+    position: fixed;
+    top: 0px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid #e1e1e1;
+    background: #fff;
+}
+header > nav {
+    width: 93vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav > a {
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+
+    font-size: 15px;
+}
+header > nav > a > img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+header > nav > a > h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* ---------- CORPO DO SITE --------------*/
+main {
+    width: 100vw;
+    margin-top: 50px;
+}
+main > section {
+    width: 93vw;
+}
+
+#iform {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-top: 80px;
+}
+#iform > h1 {
+    width: 100%;
+    margin: 10px auto;
+
+    font-size: 15px;
+    text-align: center;
+
+}
+#iform > article {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+}
+#iform > article > aside {
+
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    text-align: left;
+}
+#iform > article > aside > h3 {
+    margin-left: 0px;
+    font-size: 15px;
+    font-weight: normal;
+}
+#iform > article > aside > input {
+    margin: 0px;
+}
+#iform > article > aside > img {
+    margin-left: 0px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+#iform > .bt-avancar {
+    padding: 10px;
+
+    position: fixed;
+    background: white;
+    border-top: 1px solid #e1e1e1;
+
+    left: 0px;
+    bottom: 0px;
+    z-index: 2;
+
+    width: 100vw;
+    height: 70px;
+}
+#iform > .bt-avancar > input {
+    padding: 15px;
+    width: 93vw;
+    background-color: #406DF8;
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
