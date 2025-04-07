@@ -72,7 +72,6 @@ main > section > form {
 
 main > section > form > aside {
     width: 100%;
-    border: 1px solid #e1e1e1;
 }
 
 
@@ -129,27 +128,32 @@ main > section > form > .box-file-text > textarea {
 
 }
 
-
-main > section > form > .box {
+main > section > form > a {
+    text-decoration: none;
+    color: black;
+    width: 100vw;
+}
+main > section > form > a > .box {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;  
 
     padding: 15px;
+    border-top: 1px solid #e1e1e1;
 }
-main > section > form > .box > h3 {
+main > section > form > a > .box > h3 {
     margin-left: 0px;
     font-size: 15px;
     font-weight: normal;
 }
-main > section > form > .box > abbr {
+main > section > form > a > .box > abbr {
     margin-right: 0px;
     text-align: right;
     font-size: 14px;
 
 }
-main > section > form > .box > img {
+main > section > form > a > .box > img {
     margin-right: 0px;
     margin-left: 10px;
     width: 18px;
