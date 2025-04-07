@@ -89,7 +89,10 @@ main > section {
     width: 100%;
     margin-top: 10px;
 }
-#iform > article > aside {
+#iform > article > label {
+    width: 100%;
+}
+#iform > article > label > aside {
 
     margin: 5px auto;
     display: flex;
@@ -103,15 +106,15 @@ main > section {
     padding: 15px;
     border-radius: 5px;
 }
-#iform > article > aside > h3 {
+#iform > article > label > aside > h3 {
     margin-left: 0px;
     font-size: 15px;
     font-weight: normal;
 }
-#iform > article > aside > input {
+#iform > article > label > aside > input {
     margin: 0px;
 }
-#iform > article > aside > img {
+#iform > article > label > aside > img {
     margin-left: 0px;
     margin-right: 10px;
     width: 40px;
