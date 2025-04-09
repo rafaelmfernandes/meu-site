@@ -127,6 +127,9 @@ main > section > form > .box-file-text > textarea {
     font-size: 14px;
 
 }
+main > section > form > .box-file-text > textarea:focus {
+    outline: none;
+}
 
 main > section > form > a {
     text-decoration: none;
