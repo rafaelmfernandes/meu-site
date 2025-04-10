@@ -65,8 +65,8 @@ main > section > form > article > input {
     border-radius: 2px;
     color: white;
 }
-main > section > form > article > p {
-    display: none;
+main > section > form > #alert {
+    color: white;
 }
 main > section > form > article > button {
     width: 100%;
