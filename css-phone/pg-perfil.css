@@ -122,6 +122,7 @@ main > section {
     margin-top: 10px;
 }
 
+
 #menu-navega {
     width: 100vw;
     margin-top: 20px;
@@ -147,4 +148,68 @@ main > section {
     width: 30px;
     height: 30px;
     object-fit: contain;
+}
+#menu-navega > nav > article > h3{
+    font-size: 13px;
+}
+
+
+
+
+#conteudo {
+    width: 100vw;
+    margin-top: 10px;
+}
+#conteudo > article {
+    width: 93vw;
+    height: 150px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#conteudo > article > img {
+    width: 35%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+    margin: 0px;
+
+}
+#conteudo > article > aside {
+    margin: 0px;
+    margin-left: 10px;
+}
+
+#conteudo > article > aside > div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#conteudo > article > aside > div > button {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 30px;
+    padding: 7px 15px;
+    background: var(--color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#conteudo > article > aside > div > .excluir {
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #c1c1c1;
+}
+#conteudo > article > aside > div > button > img {
+    width: 15px;
+    margin-right: 5px;
 }
