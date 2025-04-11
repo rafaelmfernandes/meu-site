@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --color: #3F00F2;
+}
 
 body { font-family: Arial, Helvetica, sans-serif; }
 
@@ -117,4 +120,31 @@ main > section {
     font-size: 15px;
 
     margin-top: 10px;
+}
+
+#menu-navega {
+    width: 100vw;
+    margin-top: 20px;
+}
+#menu-navega > nav {
+    width: 93vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+}
+#menu-navega > nav > article {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#menu-navega > nav > article > img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
 }
