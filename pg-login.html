@@ -12,15 +12,14 @@
     </header>
     <main>
         <section>
-            <form id="iform">
+            <form id="iform" method="post">
                 <img src="imagens-de-fundo/Group 2121.png">
                 <article>
-                    <input type="text" name="" id="iemail" placeholder="Email ou telefone" oninput="valDadosCampoEmail()">                    
+                    <input type="text" name="" id="iemail" oninput="dadosEmail()" placeholder="Email ou telefone">                    
                 </article>
                 <abbr></abbr>
                 <article>
-                    <input type="text" name="" id="isenha" oninput="valDadosCampoSenha()" placeholder="Senha">
-                   
+                    <input type="text" name="" id="isenha" oninput="dadosSenha()" placeholder="Senha">  
                 </article>
                 <abbr></abbr>
                 <article class="link">
@@ -29,7 +28,7 @@
                 <article id="alert">
                 </article>
                 <article>
-                    <button type="button" id="ilogin" disabled="true" onclick="fazerLogin()">Entrar</button>
+                    <button type="submit" onclick="loadPage()" disabled="true" id="ilogin">Entrar</button>
                     <button type="submit" id="iregistrar">Regristrar</button>
                 </article>
             </form>

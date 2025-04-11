@@ -1,79 +1,68 @@
+//CAPITURAR EVENTO DE SUBMIT NO FORMULARIO 
 
-//ATRIBUTOS
+const form = document.querySelector('#iform');
 
-const form = document.getElementById("iform");
-const email = document.getElementById("iemail");
-const password = document.getElementById("isenha");
-const alerta = document.getElementById("alert");
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
 
-const login = document.getElementById("ilogin");
-const register = document.getElementById("iregistrar");
+});
+function loadPage(){
+    window.location.href='index.html';
+}
 
-const abbr = document.getElementsByTagName("abbr")[0];
-const abbr1 = document.getElementsByTagName("abbr")[1];
-const link = document.getElementsByTagName("a")[0];
-
-
-// METODOS 
-// METODO VALIDAR CAMPOS
-function valDadosCampoEmail(){
+function dadosEmail(){
     msgErrorEmail();
+    toggleEmail();
 }
-function valDadosCampoSenha(){
+function dadosSenha(){
     msgErrorSenha();
-    buttonsDisable();
+    toggleEmail();
 }
 
+function msgErrorEmail(){
+    const valEmail = !validarEmail();
+    const abbr = document.getElementsByTagName('abbr')[0];
 
-// HABILITANDO BOTOES
-function buttonsDisable(){
-    const emailVal = validarEmail();
-    const senhaValida = validarSenha();
-    login.disabled = !emailVal || !senhaValida;
-}
-
-function fazerLogin(){
-    window.location.href="./index.html";
-    
-}
-
-
-// VERIFICANDO ERROS
-function msgErrorEmail() {
-    const valorEmail = email.value;
-    if(!valorEmail){
-        abbr.style.display = "block";
-        abbr.innerText = "Email invalido";
+    if(!valEmail){
+        abbr.style.display = 'block';
+        abbr.innerText = "Email invalido!";
     }else {
-        abbr.style.display = "none";
+        abbr.style.display='none';
     }
 }
 function msgErrorSenha(){
-    const valorSenha = password.value;
-    if(!valorSenha){
-        abbr1.style.display = "block";
-        abbr1.innerText = "senha invalida";
-    }else if(valorSenha.length < 8){
-        abbr1.style.display = "block";
-        abbr1.innerText = "Senha nao pode ser menor que 8 caracteres";
-    } else {
-        abbr1.style.display = "none";
+    const valSenha = !validarSenha();
+    const abbr1 = document.getElementsByTagName('abbr')[1];
+
+    if(!valSenha){
+        abbr1.style.display = 'block';
+        abbr1.innerText = "Campo senha vazio!";
+    }else {
+        abbr1.style.display='none';
     }
 }
 
-// VALIDANDO EMAIL E SENHA
-function validarEmail(){
-    const valorEmail = email.value;
-    if (!valorEmail ){
-        return false;
-    }
-    return true;
+
+function toggleEmail(){
+    const valEmail = validarEmail();
+    const valSenha = validarSenha();
+    const btlogin = document.querySelector('#ilogin').disabled = valEmail && validarSenha;
 }
-function validarSenha() {
-    const valorSenha = password.value;
-    if (!valorSenha){
-        return false;
+
+
+function validarEmail (){
+    const msgEmail = document.querySelector('#iemail').value;
+    if(!msgEmail){
+        return true;
     }
-    return true;
+    return false;
 }
+function validarSenha (){
+    const msgSenha = document.querySelector('#isenha').value;
+    if(!msgSenha){
+        return true;
+    }
+    return false;
+}
+
 
