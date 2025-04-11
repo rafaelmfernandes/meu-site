@@ -163,13 +163,36 @@ main > section {
 #conteudo > article {
     width: 93vw;
     height: 150px;
-    background-color: #f2f2f2;
+    background-color: #f8f8f8;
     border-radius: 5px;
 
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: flex-start;
+
+    position: relative;
+}
+#conteudo > article > abbr {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+#conteudo > article > abbr > img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin: 0px;
+
+}
+#conteudo > article > abbr > h3 {
+    margin: 0px;
+
 }
 #conteudo > article > img {
     width: 35%;
@@ -209,7 +232,10 @@ main > section {
     color: #555;
     border: 1px solid #c1c1c1;
 }
+
 #conteudo > article > aside > div > button > img {
     width: 15px;
+    height: 15px;
+    object-fit: contain;
     margin-right: 5px;
 }
