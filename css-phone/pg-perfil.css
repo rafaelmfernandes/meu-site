@@ -7,6 +7,7 @@
 }
 :root{
     --color: #3F00F2;
+    --fundobox: #e4e0f0;
 }
 
 body { font-family: Arial, Helvetica, sans-serif; }
@@ -159,11 +160,12 @@ main > section {
 #conteudo {
     width: 100vw;
     margin-top: 10px;
+    margin-bottom: 75px;
 }
 #conteudo > article {
     width: 93vw;
     height: 150px;
-    background-color: #f8f8f8;
+    background-color: #e4e0f0;
     border-radius: 5px;
 
     display: flex;
@@ -172,6 +174,7 @@ main > section {
     align-items: flex-start;
 
     position: relative;
+    margin: 10px auto;
 }
 #conteudo > article > abbr {
     position: absolute;
@@ -205,6 +208,7 @@ main > section {
 #conteudo > article > aside {
     margin: 0px;
     margin-left: 10px;
+    width: 60%;
 }
 
 #conteudo > article > aside > div {
@@ -212,6 +216,8 @@ main > section {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
+
+    width: 100%;
 }
 #conteudo > article > aside > div > button {
     display: flex;
@@ -225,7 +231,9 @@ main > section {
     color: white;
     border: none;
     border-radius: 5px;
-    margin-right: 10px;
+    margin: 30px 0px;
+
+    width: 48%;
 }
 #conteudo > article > aside > div > .excluir {
     background-color: #fff;
@@ -237,5 +245,6 @@ main > section {
     width: 15px;
     height: 15px;
     object-fit: contain;
+    margin: 0px;
     margin-right: 5px;
 }
