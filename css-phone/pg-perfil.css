@@ -195,7 +195,8 @@ main > section {
 }
 #conteudo > article > abbr > h3 {
     margin: 0px;
-
+    font-size: 13px;
+    color: #555;
 }
 #conteudo > article > img {
     width: 35%;
