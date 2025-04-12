@@ -136,8 +136,9 @@ main > section {
     justify-content: space-between;
     align-items: center;
 
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 5px;
 }
 #menu-navega > nav > article {
     display: flex;
@@ -146,8 +147,8 @@ main > section {
     align-items: center;
 }
 #menu-navega > nav > article > img {
-    width: 30px;
-    height: 30px;
+    width: 23px;
+    height: 23px;
     object-fit: contain;
 }
 #menu-navega > nav > article > h3{
