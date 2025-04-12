@@ -241,6 +241,9 @@ main > section {
     color: #555;
     border: 1px solid #c1c1c1;
 }
+#conteudo > article > aside > div > .patrocinar {
+    border: 1px solid var(--color);
+}
 
 #conteudo > article > aside > div > button > img {
     width: 15px;
