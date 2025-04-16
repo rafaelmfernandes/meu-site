@@ -126,7 +126,7 @@ main > section {
 }
 #topo-perfil > h1, h2, h3{
     font-size: 16px;
-    margin: 10px auto 0px;
+    margin: 5px auto 0px;
 }
 #topo-perfil > h2, h3 {
     font-size: 14px;
@@ -143,7 +143,7 @@ main > section {
     margin-top: 10px;
 }
 
-
+/* ------ MENU ( MEUS ANUNCIOS, MINHA AGENDA, CONTRATADOS) ---------*/
 #menu-navega {
     width: 100vw;
     margin-top: 20px;
@@ -186,7 +186,7 @@ main > section {
 #conteudo > article {
     width: 93vw;
     height: 150px;
-    background-color: #e4e0f0;
+    background-color: #f7f7f7;
     border-radius: 5px;
 
     display: flex;
@@ -236,10 +236,11 @@ main > section {
 #conteudo > article > aside > div {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
     justify-content: space-between;
+    align-items: flex-end; 
 
     width: 100%;
+    height: 85px;
 }
 #conteudo > article > aside > div > button {
     display: flex;
@@ -247,13 +248,12 @@ main > section {
     align-items: center;
     justify-content: center;
 
-    margin-top: 30px;
+   margin: 0px;
     padding: 7px 15px;
     background: var(--color);
     color: white;
     border: none;
     border-radius: 5px;
-    margin: 30px 0px;
 
     width: 48%;
 }
