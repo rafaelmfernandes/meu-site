@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 60px;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main > h1 {
+    font-size: 20px;
+    color: #000;
+    
+    width: 93vw;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+main > a {
+    text-decoration: none;
+    margin: 20px auto;
+}
+main > a > button {
+    padding: 15px;
+    background: #6429f9;
+    
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 90vw;
+
+    font-size: 15px;
+    font-weight: bold;
+}
+legend { 
+   font-size: 12px;
+   color: #4b4b4b;
+   margin-bottom: 10px;
+}
+
+/* ---------------------- LINKS PARA CRIAR CONTA----------------------------- */
+
+main > section {
+    width: 90vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+main > section > a {
+    margin-top: 10px;
+    width: 90vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    padding: 10px;
+
+    font-size: 14px;
+    
+}
+main > section > a > img {
+    width: 20px;
+    height: 20px;
+
+    margin-left: 0px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+
+main > .termos {
+    margin-top: 30px;
+    width: 80vw;
+}
+main > .termos > p {
+    font-size: 12px;
+    color: #393939;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+main > .termos > p > a {
+    text-decoration: none;
+    color: #1b1b1b;
+    font-weight: bold;
+}
+
+
+main > .ja-tem-conta {
+    margin-top: 50px;
+    width: 80vw;
+
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    padding: 30px;
+    
+    border-top: 1px solid #e1e1e1;
+    background: #f8f8f8;
+}
+main > .ja-tem-conta > p {
+    font-weight: bold;
+    font-size: 14px;
+    color: #515151;
+}
+main > .ja-tem-conta > p > a {
+    text-decoration: none;
+    color: #6429f9;
+    font-weight: bold;
+}

@@ -25,13 +25,18 @@ header {
     z-index: 2;
     
 }
+header > a {
+    text-decoration: none;
+    margin: 0px;
+}
 
-header > h1 {
+header > a > h1 {
     flex: 0 50%;
     margin-left: 5px;
     padding: 10px;
     font-size: 16px;
     font-weight: bold;
+    color: black;
 }
 header > nav {
     flex: 0 0 120px;
@@ -156,7 +161,6 @@ main > menu > a > h2 {
 }
 
 
-
 #container > .topo-container > .ft-user-name {
     width: 85%;
     margin-left: 0px;
@@ -193,7 +197,6 @@ main > menu > a > h2 {
     margin-right: 0px;
     object-fit: contain;
 }
-
 
 
 #container > a > .foto-video-infor {
@@ -262,7 +265,6 @@ main > menu > a > h2 {
     margin-right: 0px;
     color: white;
 }
-
 
 
 #container > .descricao {
