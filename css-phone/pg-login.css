@@ -97,11 +97,14 @@ main > section > form > article > #iregistrar:disabled {
 main > section > form > article > #iregistrar {
     margin-top: 10px;
     width: 100%;
-    color: white;
 
     padding: 12px;
     border: 1px solid white;
     border-radius: 5px;
     background: none;
     font-size: 15px;
+}
+main > section > form > article > #iregistrar > a {
+    text-decoration: none;
+    color: white;
 }
