@@ -75,6 +75,7 @@ main > section > a {
     padding: 10px;
 
     font-size: 14px;
+    font-weight: bold;
     
 }
 main > section > a > img {
@@ -88,7 +89,8 @@ main > section > a > img {
 
 
 main > .termos {
-    margin-top: 130px;
+    position: absolute;
+    bottom: 100px;
     width: 80vw;
 }
 main > .termos > p {
