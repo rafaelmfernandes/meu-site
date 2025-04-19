@@ -32,7 +32,7 @@ main > a {
 }
 main > a > button {
     padding: 15px;
-    background: #6429f9;
+    background: slateblue;
     
     color: #fff;
     border: none;

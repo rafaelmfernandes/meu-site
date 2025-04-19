@@ -245,7 +245,7 @@ main > menu > a > h2 {
 #container > .valor {
     width: 100vw;
     padding: 10px 15px;
-    background-color: var(--color);
+    background-color: slateblue;
     
 
     display: flex;
